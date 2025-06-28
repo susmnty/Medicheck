@@ -1,0 +1,122 @@
+.auth-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background-color: var(--bg-color);
+ padding: 2rem;
+}
+
+.auth-box {
+ background-color: var(--box-bg);
+ padding: 2.5rem 2rem;
+ border-radius: 20px;
+ box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+ width: 100%;
+ max-width: 400px;
+ text-align: center;
+}
+
+.auth-logo-title {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 0.5rem;
+ margin-bottom: 1.5rem;
+}
+
+.logo {
+ width: 60px;
+ height: 60px;
+}
+
+.apple-title {
+ font-size: 1.8rem;
+ font-weight: 600;
+ color: var(--text-color);
+}
+
+.apple-input {
+ width: 100%;
+ padding: 0.8rem;
+ margin-bottom: 1.2rem;
+ border: 1px solid #ccc;
+ border-radius: 12px;
+ background-color: #f2f2f2;
+ font-size: 1rem;
+ outline: none;
+}
+
+.apple-input:focus {
+ border-color: #007aff;
+ background-color: #fff;
+}
+
+.apple-button {
+ width: 100%;
+ padding: 0.9rem;
+ font-size: 1rem;
+ border-radius: 12px;
+ background-color: #007aff;
+ color: white;
+ border: none;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+.apple-button:hover {
+ background-color: #005edb;
+}
+
+.auth-footer {
+ margin-top: 1rem;
+ color: var(--text-color);
+}
+
+/* === SOCIAL LOGIN STYLING === */
+.social-login {
+ display: flex;
+ flex-direction: column;
+ gap: 0.8rem;
+ margin: 1.5rem 0 0;
+}
+
+.social-button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ padding: 0.8rem;
+ border-radius: 12px;
+ font-weight: 500;
+ font-size: 0.95rem;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ border: none;
+}
+
+.social-button img {
+ width: 20px;
+ height: 20px;
+}
+
+/* Google */
+.social-button.google {
+ background-color: #fff;
+ color: #000;
+ border: 1px solid #ccc;
+}
+
+.social-button.google:hover {
+ background-color: #f0f0f0;
+}
+
+/* Apple */
+.social-button.apple {
+ background-color: #000;
+ color: #fff;
+}
+
+.social-button.apple:hover {
+ background-color: #222;
+}
